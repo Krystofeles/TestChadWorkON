@@ -1,0 +1,15 @@
+body{
+  height: 1920px;
+  background: rgb(161,161,161);
+  background: radial-gradient(circle, rgba(161,161,161,1) 0%, rgba(0,0,0,1) 100%);`
+}
+.Header {
+  color: red;
+}
+.Logo {
+  width: 100px;
+}
+
+.lista {
+  font-size: 30px;
+}
