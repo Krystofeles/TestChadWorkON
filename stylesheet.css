@@ -1,17 +1,12 @@
 body{
   height: 1920px;
+  color: white;
   background: rgb(161,161,161);
   background: radial-gradient(circle, rgba(161,161,161,1) 0%, rgba(0,0,0,1) 100%);
 }
-.Header {
-  color: red;
-  display: inline-block;
-  width: 1500px;
-  font-size: 30px;
-  margin-left: 20px;
-}
 .Logo {
-  width: 200px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
 }
 .Leftlogo {
@@ -20,8 +15,26 @@ body{
 .Rightlogo {
   display: inline-block;
   vertical-align: top;
-  height: 198px;
+  height: 96px;
+  width: 50%;
+  border-color: aliceblue;
+  border-style: double;
+  border-width: 2px;
 }
+.crumb {
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 200%;
+  
+}
+.crumb a::after {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 80%;
+  content: ">";
+  font-weight: bold;
+  padding: 0 3px;
+  }
 .lista {
   font-size: 30px;
 }
